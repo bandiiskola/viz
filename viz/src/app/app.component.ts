@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FooldalComponent } from './fooldal/fooldal.component';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
