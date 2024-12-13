@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './hiba-bevitel.component.css'
 })
 export class HibaBevitelComponent implements OnInit{
-  constructor(private apiService: ApiService, private route: ActivatedRoute){}
+  constructor(private apiService: ApiServiceService, private route: ActivatedRoute){}
   id:string|null=null;
   adatok:any[] =[];
   selectek:any[]=[];
